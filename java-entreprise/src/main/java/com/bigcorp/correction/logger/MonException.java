@@ -1,0 +1,9 @@
+package com.bigcorp.correction.logger;
+
+public class MonException extends Exception{
+
+    public MonException(String message) {
+        super(message + " un suffixe");
+    }
+
+}

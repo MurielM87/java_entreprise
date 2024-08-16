@@ -1,0 +1,127 @@
+246  [main] INFO  com.bigcorp.correction.logger.LogMain - je calcule avec a = 3 et b = 5
+366  [main] INFO  com.bigcorp.correction.logger.LogMain - j'additionne avec a = 3 et b = 5
+373  [main] INFO  com.bigcorp.correction.logger.LogMain - je calcule avec a = 3 et b = 5
+2024-07-22 09:54:02,253 [main] INFO  com.bigcorp.correction.logger.LogMain - j'additionne avec a = 3 et b = 5
+2024-07-22 09:54:02,257 [main] INFO  com.bigcorp.correction.logger.LogMain - je calcule avec a = 3 et b = 5
+2024-07-22 10:02:13,882 [main] INFO  com.bigcorp.correction.logger.LogMain - j'additionne avec a = 3 et b = 5
+2024-07-22 10:02:13,887 [main] INFO  com.bigcorp.correction.logger.LogMain - je calcule avec a = 3 et b = 5
+2024-07-22 10:02:13,887 [main] ERROR com.bigcorp.correction.logger.LogMain - une erreur grave est survenue
+2024-07-22 10:03:04,492 [main] INFO  com.bigcorp.correction.logger.LogMain - j'additionne avec a = 3 et b = 5
+2024-07-22 10:03:04,497 [main] INFO  com.bigcorp.correction.logger.LogMain - je calcule avec a = 3 et b = 5
+2024-07-22 10:03:04,499 [main] ERROR com.bigcorp.correction.logger.LogMain - une erreur grave est survenue
+java.lang.ArithmeticException: / by zero
+	at com.bigcorp.correction.logger.LogMain.calcule1(LogMain.java:24)
+	at com.bigcorp.correction.logger.LogMain.main(LogMain.java:17)
+2024-07-22 10:29:01,944 [main] INFO  com.bigcorp.correction.logger.LogMain - j'additionne avec a = 3 et b = 5
+2024-07-22 10:29:01,947 [main] INFO  com.bigcorp.correction.logger.LogMain - je calcule avec a = 3 et b = 5
+2024-07-22 10:29:01,951 [main] ERROR com.bigcorp.correction.logger.LogMain - une erreur grave est survenue
+java.lang.ArithmeticException: / by zero
+	at com.bigcorp.correction.logger.LogMain.calcule1(LogMain.java:24)
+	at com.bigcorp.correction.logger.LogMain.main(LogMain.java:17)
+2024-07-22 10:29:26,852 [main] INFO  com.bigcorp.correction.logger.Main - le calcul est 3 + 4
+2024-07-22 10:29:49,654 [main] INFO  com.bigcorp.correction.logger.Main - le calcul est 3 + 4
+2024-07-22 10:30:48,402 [main] INFO  com.bigcorp.correction.logger.Main - le calcul est 3 + 4
+2024-07-22 10:30:48,405 [main] ERROR com.bigcorp.correction.logger.Main - problème système
+2024-07-22 10:31:47,297 [main] INFO  com.bigcorp.correction.logger.Main - le calcul est 3 + 4
+2024-07-22 10:32:01,175 [main] INFO  com.bigcorp.correction.logger.Main - le calcul est 0 + 4
+2024-07-22 10:32:21,251 [main] INFO  com.bigcorp.correction.logger.Main - le calcul est -1 + 4
+2024-07-22 10:32:21,254 [main] ERROR com.bigcorp.correction.logger.Main - problème système
+2024-07-22 10:46:53,605 [main] INFO  com.bigcorp.correction.logger.Main - le calcul est -1 + 4
+2024-07-22 10:46:53,608 [main] ERROR com.bigcorp.correction.logger.Main - problème système : le nombre est négatif
+2024-07-22 10:47:21,171 [main] INFO  com.bigcorp.correction.logger.Main - le calcul est -1 + 4
+2024-07-22 10:47:21,173 [main] ERROR com.bigcorp.correction.logger.Main - problème système : le nombre est nul ou négatif-1 & 4
+2024-07-22 10:47:44,125 [main] INFO  com.bigcorp.correction.logger.Main - le calcul est -1 + 4
+2024-07-22 10:47:44,127 [main] ERROR com.bigcorp.correction.logger.Main - problème système : le nombre est nul ou négatif. a  = -1 & b = 4
+2024-07-22 10:48:33,069 [main] INFO  com.bigcorp.correction.logger.Main - le calcul est -1 + 4
+2024-07-22 10:48:33,071 [main] ERROR com.bigcorp.correction.logger.Main - problème système : le nombre est nul ou négatif. a  = -1 & b = 4
+2024-07-22 10:49:37,510 [main] INFO  com.bigcorp.correction.logger.Main - le calcul est -1 + 4
+2024-07-22 10:50:34,549 [main] INFO  com.bigcorp.correction.logger.Main - le calcul est 5 + 4
+2024-07-22 10:50:34,554 [main] ERROR com.bigcorp.correction.logger.Main - une erreur grave est survenue
+java.lang.ArithmeticException: / by zero
+	at com.bigcorp.correction.logger.Main.calculer(Main.java:25)
+	at com.bigcorp.correction.logger.Main.main(Main.java:18)
+2024-07-22 10:53:02,886 [main] INFO  com.bigcorp.correction.logger.Main - le calcul est 5 + -1
+2024-07-22 10:54:43,631 [main] INFO  com.bigcorp.correction.logger.Main - le calcul est 5 /(4 - 4
+2024-07-22 10:54:43,634 [main] ERROR com.bigcorp.correction.logger.Main - une erreur est survenue
+java.lang.ArithmeticException: / by zero
+	at com.bigcorp.correction.logger.Main.calculer(Main.java:25)
+	at com.bigcorp.correction.logger.Main.main(Main.java:18)
+2024-07-22 11:01:15,955 [main] INFO  com.bigcorp.correction.logger.Main - le calcul est 5 /(4 - 4
+2024-07-22 11:01:15,958 [main] ERROR com.bigcorp.correction.logger.Main - une erreur est survenue
+java.lang.ArithmeticException: / by zero
+	at com.bigcorp.correction.logger.Main.calculer(Main.java:25)
+	at com.bigcorp.correction.logger.Main.main(Main.java:18)
+2024-07-22 11:04:53,270 [main] INFO  com.bigcorp.correction.logger.Main - le calcul est 5 /(4 - 4 )
+2024-07-22 11:04:53,274 [main] ERROR com.bigcorp.correction.logger.Main - une erreur est survenue
+java.lang.ArithmeticException: / by zero
+	at com.bigcorp.correction.logger.Main.calculer(Main.java:25)
+	at com.bigcorp.correction.logger.Main.main(Main.java:18)
+2024-07-22 11:05:42,572 [main] INFO  com.bigcorp.correction.logger.Main - le calcul est 5 /(4 - 4 )
+2024-07-22 11:05:42,575 [main] ERROR com.bigcorp.correction.logger.Main - une erreur est survenue
+java.lang.ArithmeticException: / by zero
+	at com.bigcorp.correction.logger.Main.calculer(Main.java:25)
+	at com.bigcorp.correction.logger.Main.main(Main.java:18)
+2024-07-22 11:07:19,481 [main] INFO  com.bigcorp.correction.logger.Main - le calcul est 5 /(4 - 4 )
+2024-07-22 11:07:19,484 [main] ERROR com.bigcorp.correction.logger.Main - une erreur est survenue
+java.lang.ArithmeticException: / by zero
+	at com.bigcorp.correction.logger.Main.calculer(Main.java:25)
+	at com.bigcorp.correction.logger.Main.main(Main.java:18)
+2024-07-22 11:31:26,321 [main] INFO  com.bigcorp.correction.logger.Main - le calcul est 5 /(4 - 4 )
+2024-07-22 11:31:26,324 [main] ERROR com.bigcorp.correction.logger.Main - une erreur est survenue
+java.lang.ArithmeticException: / by zero
+	at com.bigcorp.correction.logger.Main.calculer(Main.java:25)
+	at com.bigcorp.correction.logger.Main.main(Main.java:18)
+2024-07-22 11:32:00,832 [main] INFO  com.bigcorp.correction.logger.LogMain - j'additionne avec a = 3 et b = 5
+2024-07-22 11:32:00,835 [main] INFO  com.bigcorp.correction.logger.LogMain - je calcule avec a = 3 et b = 5
+2024-07-22 11:32:00,837 [main] ERROR com.bigcorp.correction.logger.LogMain - une erreur grave est survenue
+java.lang.ArithmeticException: / by zero
+	at com.bigcorp.correction.logger.LogMain.calcule1(LogMain.java:35)
+	at com.bigcorp.correction.logger.LogMain.main(LogMain.java:17)
+2024-07-22 11:32:00,837 [main] INFO  com.bigcorp.correction.logger.LogMain - calcul puissance : 0
+2024-07-22 11:32:00,837 [main] INFO  com.bigcorp.correction.logger.LogMain - calcul puissance : 0
+2024-07-22 11:32:00,837 [main] INFO  com.bigcorp.correction.logger.LogMain - calcul puissance : 0
+2024-07-22 11:32:00,837 [main] INFO  com.bigcorp.correction.logger.LogMain - calcul puissance : 0
+2024-07-22 11:32:00,837 [main] INFO  com.bigcorp.correction.logger.LogMain - calcul puissance : 0
+2024-07-22 11:32:41,581 [main] INFO  com.bigcorp.correction.logger.LogMain - j'additionne avec a = 3 et b = 5
+2024-07-22 11:32:41,585 [main] INFO  com.bigcorp.correction.logger.LogMain - je calcule avec a = 3 et b = 5
+2024-07-22 11:32:41,587 [main] ERROR com.bigcorp.correction.logger.LogMain - une erreur grave est survenue
+java.lang.ArithmeticException: / by zero
+	at com.bigcorp.correction.logger.LogMain.calcule1(LogMain.java:35)
+	at com.bigcorp.correction.logger.LogMain.main(LogMain.java:17)
+2024-07-22 11:32:41,588 [main] INFO  com.bigcorp.correction.logger.LogMain - calcul puissance : 1
+2024-07-22 11:32:41,588 [main] INFO  com.bigcorp.correction.logger.LogMain - calcul puissance : 3
+2024-07-22 11:32:41,588 [main] INFO  com.bigcorp.correction.logger.LogMain - calcul puissance : 9
+2024-07-22 11:32:41,588 [main] INFO  com.bigcorp.correction.logger.LogMain - calcul puissance : 27
+2024-07-22 11:32:41,588 [main] INFO  com.bigcorp.correction.logger.LogMain - calcul puissance : 81
+2024-07-22 11:33:32,104 [main] INFO  com.bigcorp.correction.logger.LogMain - j'additionne avec a = 3 et b = 5
+2024-07-22 11:33:32,109 [main] INFO  com.bigcorp.correction.logger.LogMain - je calcule avec a = 3 et b = 5
+2024-07-22 11:33:32,111 [main] ERROR com.bigcorp.correction.logger.LogMain - une erreur grave est survenue
+java.lang.ArithmeticException: / by zero
+	at com.bigcorp.correction.logger.LogMain.calcule1(LogMain.java:35)
+	at com.bigcorp.correction.logger.LogMain.main(LogMain.java:17)
+2024-07-22 13:15:28,634 [main] INFO  com.bigcorp.correction.logger.Main - le calcul est 5 /(4 - 5 )
+2024-07-22 13:17:02,272 [main] INFO  com.bigcorp.correction.logger.Main - le calcul est 5 /(4 - 5 )
+2024-07-22 13:17:02,286 [main] TRACE com.bigcorp.correction.logger.Main - détail calcul puissance : 8.0
+2024-07-22 13:18:30,794 [main] INFO  com.bigcorp.correction.logger.Main - le calcul est 5 /(4 - 5 )
+2024-07-22 13:19:25,833 [main] INFO  com.bigcorp.correction.logger.Main - le calcul est 5 /(4 - 5 )
+2024-07-22 13:21:48,019 [main] INFO  com.bigcorp.correction.logger.Main - le calcul est 5 /(4 - 5 )
+2024-07-22 13:21:48,027 [main] TRACE com.bigcorp.correction.logger.Main - détail calcul puissance : 8.0
+2024-07-22 13:23:47,411 [main] INFO  com.bigcorp.correction.logger.Main - le calcul est 5 /(4 - 5 )
+2024-07-22 13:23:47,416 [main] TRACE com.bigcorp.correction.logger.Main - détail calcul puissance : 8.0
+2024-07-22 13:23:47,416 [main] DEBUG com.bigcorp.correction.logger.Main - resultat puissance : 8.0
+2024-07-22 13:23:59,736 [main] INFO  com.bigcorp.correction.logger.Main - le calcul est 5 /(4 - 5 )
+2024-07-22 13:23:59,742 [main] DEBUG com.bigcorp.correction.logger.Main - resultat puissance : 8.0
+2024-07-22 13:24:07,029 [main] INFO  com.bigcorp.correction.logger.Main - le calcul est 5 /(4 - 5 )
+2024-07-22 16:54:49,688 [main] INFO  c.bigcorp.correction.logger.LogMain - j'additionne avec a = 3 et b = 5
+2024-07-22 16:55:05,096 [main] INFO  c.bigcorp.correction.logger.LogMain - j'additionne avec a = 3 et b = 5
+2024-07-22 16:55:05,102 [main] INFO  c.bigcorp.correction.logger.LogMain - je calcule avec a = 3 et b = 5
+2024-07-22 16:55:05,105 [main] ERROR c.bigcorp.correction.logger.LogMain - une erreur grave est survenue
+java.lang.ArithmeticException: / by zero
+	at com.bigcorp.correction.logger.LogMain.calcule1(LogMain.java:44)
+	at com.bigcorp.correction.logger.LogMain.main(LogMain.java:25)
+2024-07-22 16:56:13,437 [main] INFO  c.bigcorp.correction.logger.LogMain - j'additionne avec a = 3 et b = 5
+2024-07-22 16:56:13,443 [main] INFO  c.bigcorp.correction.logger.LogMain - je calcule avec a = 3 et b = 5
+2024-07-22 16:56:13,446 [main] ERROR c.bigcorp.correction.logger.LogMain - une erreur grave est survenue
+java.lang.ArithmeticException: / by zero
+	at com.bigcorp.correction.logger.LogMain.calcule1(LogMain.java:44)
+	at com.bigcorp.correction.logger.LogMain.main(LogMain.java:25)

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!--un appender doit écrire les logs quelque part - ici dans un fichier xml -->
+    <!--l'attribut class détermine quelle classe d'appender va être utilisée OU class="ccom.bigcorp.MonAppender" pour envoie sms ou maill-->
+    <!--append true pour garder toutes les entrees dans le fichier-->
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>logs/application.log</file>
+        <append>true</append> <!-- on rajoue des fichiers-->
+        <encoder>
+        <!--    <pattern>%-4relative [%thread] %-5level %logger{35} - %msg%n</pattern> pour calculer temps d'execution-->
+            <pattern>%d [%thread] %-5level %logger{35} - %msg%n</pattern> <!--d donne la date -->
+        </encoder>
+    </appender>
+    <!--ajout autre file -->
+    <appender name="FILE_AUTRE" class="ch.qos.logback.core.FileAppender">
+        <file>logs/application-autre.log</file>
+        <append>true</append> <!-- on rajoue des fichiers-->
+        <encoder>
+            <pattern>%d [%thread] %-5level %logger{35} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!--afficher dans la console -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <!-- encoders are assigned the type
+             ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
+        <encoder>
+            <pattern>%-4relative [%thread] %-5level %logger{35} -%kvp- %msg %n</pattern>
+        </encoder>
+    </appender>
+
+    <!--pour indiquer un niveau different de root(general) - exception a la regle
+    preciser le nom de la classe/fichier ou du package (avec ses class)
+    autant de logger qu'on veut-->
+    <!--<logger name="com.bigcorp" level="info" additivity="false" /> additivity : false pour empecher que les messages aillent dans les autres fichiers log -->
+
+    <!--pour des appenders differents selon les logger -->
+<!--    <logger name="com.bigcorp" level="warn">
+        <appender-ref ref="File_autre" />
+    </logger>-->
+
+
+
+    <!--root est une balise racine -->
+    <!--level permet de dire à quel niveau on commence (trace, debug, info, warn, error) -->
+    <root level="info">
+        <appender-ref ref="FILE" />
+        <appender-ref ref="STDOUT" /> <!--STAndard OUT - sortie standard, donc la console -->
+    </root>
+
+</configuration>
